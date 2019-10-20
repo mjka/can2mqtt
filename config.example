@@ -1,0 +1,7 @@
+'MQTT': {
+	'HOST':'mqtt.fritz.box', 
+	'USER':'can',
+	'PASS':'SECRET!',
+	},
+'VERBOSE':2,
+

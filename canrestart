@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+while sleep 10 ; do 
+	if ip link show can0 | grep -q DOWN ; then 
+		ip link set can0 type can restart
+	fi
+done

@@ -1,0 +1,18 @@
+0x100: ('RX', 'ff', ('device/test/temp', 'device/test/humidity',)),
+
+0x110: ('RX', 'ff', ('device/malm/temp', 'device/malm/humidity',)),
+0x111: ('RX', 'f',  ('device/malm/pressure',)),
+
+0x120: ('RX', 'ff', ('device/multi/temp', 'device/multi/humidity',)),
+0x121: ('RX', 'ff', ('device/multi/pressure', 'device/multi/weight',)),
+
+
+
+0x302: ('EV', '?' , ('device/licht1/pir',)),
+
+0x310: ('EV', 'B',  ('device/malm/pwm',)),
+
+0x3FF: ('EV', 'L' , ('device/multi/counter',)),
+0x330: ('EV', 'ff', ('device/sonoff/green/tele/sonoff/SENSOR/ENERGY/Power', 'device/sonoff/green/tele/sonoff/SENSOR/ENERGY/Voltage',)),
+
+# vim: set filetype=python
